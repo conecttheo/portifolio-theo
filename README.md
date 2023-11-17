@@ -12,7 +12,8 @@
 
 <h3>PÁGINA INICIAL<h3/>
 
-![Captura de tela 2023-10-31 135753](https://github.com/conecttheo/portfolio-theo/assets/127543588/2bc9bad7-3632-42fb-9141-97142448483d)
 
+
+![Captura de tela 2023-10-31 135753](https://github.com/conecttheo/portifolio-theo/assets/127543588/8d17aa3d-db5c-43d2-a12b-58ad7da755ee)
 
 
