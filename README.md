@@ -8,7 +8,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **PORTFOLIO THEODORO DA MATA**
 | :label: Tecnologias | HTML e CSS
-| :rocket: URL         | 
+| :rocket: URL         | https://conecttheo.github.io/portifolio-theo/
 
 <h3>PÁGINA INICIAL<h3/>
 
