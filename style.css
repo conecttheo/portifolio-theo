@@ -63,8 +63,14 @@ body {
     color: var(--cor-terciaria);
 }
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: var(--font-secundaria);
+}
+
+.apresentacao__conteudo__texto-inteiro {
+    font-size: 1.25rem;
+    font-family: var(--font-secundaria);
+    flex-direction: row;
 }
 
 .apresentacao__links {
