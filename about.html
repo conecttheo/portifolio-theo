@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Sobre mim</title>
 </head>
 <body>
@@ -19,28 +20,53 @@
     </header>
     <main>
         <main class="apresentacao">
+            
             <section class="apresentacao__conteudo">
-                <h1 class="apresentacao__conteudo__titulo">Theodoro da Mata</h1>
-                <p class="apresentacao__conteudo__texto-inteiro">Sou desenvolvedor Front-End e tenho experiência com JavaScript, HTML, CSS, Bootstrap. 
-                    Possuo certificados e projetos em Design Thinking, UX, Scrum, Kanban, Metodologias Ágeis, Gestão de Projetos e Inteligência Emocional.
-                    Busco trazer a excelência em tudo que faço. Hoje trabalho com tecnologia e estou em constante aprendizado de novas linguagem e metodologias rumo ao crescimento profissional.
-                    
+                <h1 class="apresentacao__conteudo__titulo">Olá! Me chamo Theodoro da Mata</h1>
+                
+                <p class="apresentacao__conteudo__texto">Sou desenvolvedor Front-End e tenho experiência com JavaScript, HTML, CSS, Bootstrap. 
+                        Possuo certificados e projetos em Design Thinking, UX, Scrum, Kanban, Metodologias Ágeis, Gestão de Projetos e Inteligência Emocional.   
                 </p>
                 <p class="apresentacao__conteudo__texto">Tenho como vocação e hobbie o áudio e a iluminação de eventos, possuo mais de 8 anos de serviço 
                     voluntário como operador de som e iluminador na igreja da cidade e durante o ano de 2022 pude exercer essa função como funcionário da igreja.
 
                 </p>
-                <p class="apresentacao__conteudo__texto"> Dediquei 1 ano de estudos e aprofundamento ministerial no curso IC College, fornecido pela Igreja da Cidade em São José dos Campos. Foi uma imersão na cultura da igreja com aulas focadas em liderança pessoal; liderança ministerial com disciplinas de Gestão de Projetos, 
+                <p class="apresentacao__conteudo__texto"> Dediquei 1 ano de estudos e aprofundamento ministerial no curso IC College, fornecido pela Igreja da Cidade em São José dos Campos.
+                     Foi uma imersão na cultura da igreja com aulas focadas em liderança pessoal; liderança ministerial com disciplinas de Gestão de Projetos, 
                     Visão Empreendedora, Comunicação e Criatividade, Cultura da Honra; e serviço voluntário em todos os ministérios que compõem a Igreja.
                 </p>    
-                <p class="apresentacao__conteudo__texto-inteiro">Trabalhei por 4 anos de serviço militar às forças armadas como soldado de infantaria. Além das funções de guarda e segurança, pude exercer o trabalho de Escalante Setorial do GSD-SJ, manejando a escala de serviço e missões de um efetivo de mais de 400 soldados e cabos.
-                    Além de aprimorar habilidades técnicas, minha experiência profissional também me possibilitou desenvolver qualidades pessoais, como mentalidade colaborativa, bom relacionamento com colegas de trabalho e clientes, boa aceitação de feedbacks, resiliência, análise crítica e resolução de problemas.
+                <p class="apresentacao__conteudo__texto">Trabalhei por 4 anos de serviço militar às forças armadas como soldado de infantaria. Além das funções de guarda e segurança, 
+                    pude exercer o trabalho de Escalante Setorial do GSD-SJ, manejando a escala de serviço e missões de um efetivo de mais de 400 soldados e cabos.
                 </p>
             </section>
-            <img class="foto-de-perfil" src="./assets/lighting-theo.jpg" alt="foto do theo">
-    </main>
+        
+            <section>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./assets/lighting-theo.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./assets/theo-menino.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>    
+            
+        </main>
     <footer class="rodape">
         <p>Desenvolvido por Theo &copy; 2023 by Alura</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+                var swiper = new Swiper('.swiper', {
+                // Optional parameters
+                effect: 'flip',
+                grabCursor: true,
+                loop: true,
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                });
+    </script>
 </body>
 </html>

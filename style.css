@@ -67,12 +67,6 @@ body {
     font-family: var(--font-secundaria);
 }
 
-.apresentacao__conteudo__texto-inteiro {
-    font-size: 1.25rem;
-    font-family: var(--font-secundaria);
-    flex-direction: row;
-}
-
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -121,6 +115,23 @@ body {
     font-size: 1rem;
     color: var(--cor-primaria);
 }
+.swiper {
+    width: 600px;
+    height: 600px;
+  }
+.swiper-wrapper img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    margin: 2em 0 3em 0;
+}
+
 
 @media (max-width: 1200px) {
     .cabecalho {
