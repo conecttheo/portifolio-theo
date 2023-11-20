@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Portifolio</title>
 </head>
 <body>
@@ -32,3 +33,85 @@
             <a class="cabecalho__menu__link2" href="audio.html">Áudio</a>
         </nav>
     </header>
+    <section class="carrossel">
+                    <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a target="_blank" href="assets/O-Caminho/encerramento.jpg">
+                            <img src="assets/O-Caminho/encerramento.jpg" alt="">
+                        </a>
+                        <div class="desc">Musical O Caminho - Cena Encerramento</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a target="_blank" href="assets/O-Caminho/danca.jpg">
+                            <img src="assets/O-Caminho/danca.jpg" alt="">
+                        </a>
+                        <div class="desc">Musical O Caminho - Cena A Igreja Cresce</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a target="_blank" href="assets/O-Caminho/paulo.jpg">
+                            <img src="assets/O-Caminho/paulo.jpg" alt="">
+                        </a>
+                        <div class="desc">Musical O Caminho - Cena Paulo</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a target="_blank" href="assets/O-Caminho/prisao-2.jpg">
+                            <img src="assets/O-Caminho/prisao-2.jpg" alt="">
+                        </a>
+                        <div class="desc">Musical O Caminho - Cena Prisão</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a target="_blank" href="assets/O-Caminho/priscila.jpg">
+                            <img src="assets/O-Caminho/priscila.jpg" alt="">
+                        </a>
+                        <div class="desc">Musical O Caminho - Cena Priscila</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a target="_blank" href="assets/O-Caminho/encerramento-2.jpg">
+                            <img src="assets/O-Caminho/encerramento-2.jpg" alt="">
+                        </a>
+                        <div class="desc">Musical O Caminho - Cena Encerramento</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <a target="_blank" href="assets/O-Caminho/prisão.jpg">
+                            <img src="assets/O-Caminho/prisão.jpg" alt="">
+                        </a>
+                        <div class="desc">Musical O Caminho - Cena Te Louvarei</div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </section>
+    <footer class="rodape">
+        <p>Desenvolvido por Theo &copy; 2023 by Alura</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script> 
+</body>
+</html>
