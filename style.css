@@ -41,7 +41,9 @@ body {
     color: var(--cor-terciaria);
     text-decoration: none;
 }
-
+.cabecalho__menu__link:hover, .cabecalho__menu__link2:hover {
+    color: var(--cor-secundaria);
+}
 .apresentacao {
     padding:  2.5% 15%;
     display: flex;
@@ -72,6 +74,7 @@ body {
 
 .titulo-destaque {
     color: var(--cor-terciaria);
+    font-weight: bold;
 }
 .apresentacao__conteudo__texto {
     font-size: 1.25rem;
@@ -144,7 +147,7 @@ body {
 }
 
 
-@media (max-width: 1086px) {
+@media (max-width: 1300px) {
     .cabecalho {
         padding: 2rem;
         background-color: var(--cor-primaria);
