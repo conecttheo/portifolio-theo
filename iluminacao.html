@@ -33,6 +33,11 @@
             <a class="cabecalho__menu__link2" href="audio.html">Áudio</a>
         </nav>
     </header>
+<main class="apresentacao-luz">
+    <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">Trabalhos realizados como <strong class="titulo-destaque">Operador de iluminação</strong> </h1>
+        <p class="apresentacao__conteudo__texto">Atuo como Operador de iluminação voluntário para peças de teatro e musicais, shows e orquestras na Igreja da Cidade</p>
+    </section>
     <section class="carrossel">
                     <!-- Swiper -->
             <div class="swiper mySwiper">
@@ -80,12 +85,16 @@
                         <div class="desc">Musical O Caminho - Cena Te Louvarei</div>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
             </div>
     </section>
-    <footer class="rodape">
-        <p>Desenvolvido por Theo &copy; 2023 by Alura</p>
-    </footer>
+    
+</main>
+<footer class="rodape">
+    <p>Desenvolvido por Theo &copy; 2023 by Alura</p>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
@@ -93,6 +102,10 @@
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 10,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -107,7 +120,7 @@
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 50,
           },
         },
