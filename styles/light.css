@@ -1,5 +1,5 @@
 .apresentacao-luz {
-    padding:  2.5% 15%;
+    padding:  5% 5%;
     display: block;
     align-items: center;
     justify-content: space-between;
@@ -7,7 +7,7 @@
 }
 
 .carrossel {
-    margin: 5rem 15rem;
+    margin: 5rem 0rem;
     position: relative;
     height: 100%;
 }
@@ -30,7 +30,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover ;
     border-radius: 8px;
   }
 
