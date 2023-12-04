@@ -4,10 +4,10 @@
 @import url(styles/home.css);
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #f6f6f6;
+    --cor-primaria: #231f20;
+    --cor-secundaria: #ffffff;
     --cor-terciaria: #22d4fd;
-    --cor-hover: #272727;
+    --cor-hover: #302f2f;
 
     --font-principal: 'Krona One', sans-serif;
     --font-secundaria:'Montserrat', sans-serif ; 
@@ -31,11 +31,17 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 40px;
 }
+.container__imagem{
+    padding: 1em;
+    width: 35%;
+}
+
 .container {
     display: none;
 }
+
 .cabecalho__menu__link, .cabecalho__menu__link2{
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
